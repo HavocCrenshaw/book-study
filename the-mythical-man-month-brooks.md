@@ -40,3 +40,43 @@ to make it. However, this view Brooks holds is clearly warped by his strictly\
 professional experience in the programming field. Yes, in any professional cap-\
 acity this is objectively true, but in hobby this is not. Obvious, but I make\
 mention of it anyways.
+
+## CHAPTER 2 - The Mythical Man Month
+The problem that most software engineering projects have is that humans can't\
+estimate the amount of work required to properly do one, and we're a mess and\
+can barely keep ourselves and our projects together. Which is true. This is of\
+course a reflection of the chaotic world of 60s and 70s software engineering,\
+but still rings true today, albeit less severely.
+
+Programmers are far too optimistic, ending up with these ideas that "all will go\
+well", e.g. thoughts that you've fixed the last bug and programmers think that\
+"it'll only take as long as it should take," which Fred clocks as nonsense,\
+which it is.
+
+Fred suggests that the man-month, a unit of measurement at the time for software\
+engineering projects, is a fallacious unit of measurement, built on the idea\
+that because it worked for partitionable tasks (i.e. farming of sorts) it will\
+also work with software engineering, which is an extremely complex field in the\
+sense of tasks, some partitionable, some not, and all requiring a lot of com-\
+munication, and he suggests that instead of always becoming faster with more\
+men, it's true for a moment, but starts to become more timely at a certain\
+point. This is because of the cost to communicate.
+
+Fred suggests that a project schedule should be 1/3 planning, 1/6 coding, 1/4\
+component and early system tests, 1/4 system tests, all components ready.
+
+He says that software projects need to stop being estimated on a hunch, and at\
+the time of his writing, there is no real quantifiable method for estimation in\
+professional use. He says, a chef's food is going to take however long it's\ go-\
+ing to take, and if the customer gets upset he can eat it raw, and if the chef\
+rushes he will create an unjustifiable horror of food. Programmers are similar,\
+and this is true with all engineering. Which is why it disturbs him, that pro-\
+grammers are not treated in this way, unlike other engineering fields.
+
+The chapter basically boils down to this. Don't be an idiot when estimating, and\
+"adding manpower to a late software project makes it later." Men are hard to\
+deal with in a software project, they must be trained, briefed, everyone must\
+communicate, tasks must be specially partitioned in a specific and sequential\
+way.
+
+All of this is very true and I agree in totality.
