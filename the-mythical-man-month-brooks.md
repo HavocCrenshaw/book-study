@@ -80,3 +80,73 @@ communicate, tasks must be specially partitioned in a specific and sequential\
 way.
 
 All of this is very true and I agree in totality.
+
+## CHAPTER 3 - The Surgical Team
+Blame H. Sackman, W. J. Erikson, E. E. Grant for the mythical 10x developer.\
+Maybe I should write a book, "The Mythical 10x Developer." They made a paper,\
+"Exploratory Experimental Studies Comparing Online and Offline Programming Perf-\
+ormance" which went on to suggest that a good developer is much better than a\
+bad one, "by an order of magnitude." And so begins the 10x developer. Fred goes\
+on to use the data from this paper, to say a "good developer may be 10 times as\
+productive as a bad one." Is this the true origin of the 10x developer myth, in\
+a book about productivity myths? Irony. Fred only suggests it, he doesn't chal-\
+lenge it. Well, he does without doing it. He acknowledges that the data shows no\
+coorelation and chooses to say it anyways. Hilarious.
+
+Actually, he is challenging it without challenging it. Whether or not this is\
+intentional is up for debate, I'd like to say it is. He suggests the idea of a\
+"small team of sharp developers" is a foolish idea due to the fact that on a\
+system like OS/360, he reported from 1963-66, over 1000 people were working on\
+it, and probably 5000 man-years went into the project.
+
+So it appears he agrees with the idea of the 10x developer, because in this seg-\
+ment he uses this 10x comparison to try and justify the small team, which he\
+promptly goes on to say that even if we were to assume that everyone working on\
+OS/360 were medicore (something he said was far from true), dividing the work\
+amongst these ten 10x developers just simply is not enough for a large project.
+
+This almost sort of contradicts Chapter 2, maybe intentionally, however. Is the\
+5000 man-years mostly put into the absurdity of handling 1000 people on a soft-\
+ware project? Training, communication, managerial tedium? I thought this was the\
+case, this is what Fred said, at least. We will find out.
+
+He brings up the Mills' Proposal, a solution to this mess. This is the circle\
+around I was looking for. Chapter 2 says "adding manpower to a late software\
+project makes it later", Chapter 3 to this point has said "even the 10x develop-\
+er cannot keep up with 5000 man-years," now here is the true answer.
+
+The Mills' Proposal suggests that you should have a large amount of people,\
+teams working on components. These teams should be like a surgical team. We have\
+the surgeon, or chief programmer, who defines the specification, writes the\
+code, runs the tests. This is your 10x developer. Then, the copilot, the right-\
+hand man of the surgeon, capable but less experienced. He functions as mainly as\
+a thinker, evaluator, and discussant, representing the rest of the team and\
+helping the surgeon where needed. The administrator, who handles all the admin-\
+istrative parts of the project in place of the surgeon. The administrator may\
+however lack work if the project does not have substantial requirements, and can\
+serve two teams if necessary. The editor takes documentation that the surgeon\
+has drafted, critiques and refines it, adds references, just like an editor of a\
+manuscript. Two secretaries, one for the administrator and one for the editor.\
+The administrator having a secretary makes sense, the editor does not and Fred\
+does not clarify. The program clerk maintains all the technical records, storing\
+the inputs and outputs of the system. The tool-smith, responsible for the main-\
+tainance of tools, creating them, upgrading them, fixing them as necessary. The\
+tester, who comes up with test cases and data for debugging, and setup the scaf-\
+folding necessary for testing. The language lawyer, a master of the language(s)\
+used in the project, and who can come up with efficient and clever ways to do\
+difficult and obscure things. This is your dream team of 10 people, including\
+the Mythical 10x Developer as your primary developer. It in a way shows the im-\
+pact of this model Mills' proposed, as notably 80s/90s dev was not very unlike\
+this in most teams (to my knowledge), but may have had different ways of doing\
+things, but the main idea applies. That being, don't put 5 surgeons on one guy,\
+have 4 support 1.
+
+This maximizes the 10 person team by specializing each member to a role that\
+supports the surgeon, and one does not get in the way of another. However, this\
+is still only one team, and one team is not enough for a 5000 man-year project.\
+So, you must scale, more of these teams. But this surgical team scales, instead\
+of having 200 people or more all conflicting on the main design of the app in a\
+at the time conventional team, you now might only have 20 with 10 teams of 10,\
+the surgeon and the copilot of each team working together. Alas, comes the issue\
+of communication once more, but we have significantly improved the effectiveness\
+of large amounts of manpower.
