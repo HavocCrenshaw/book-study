@@ -150,3 +150,34 @@ at the time conventional team, you now might only have 20 with 10 teams of 10,\
 the surgeon and the copilot of each team working together. Alas, comes the issue\
 of communication once more, but we have significantly improved the effectiveness\
 of large amounts of manpower.
+
+## CHAPTER 4 - Aristocracy, Democracy, and System Design
+
+Freds brings to mind the idea of the Reims Cathedral, a great building no doubt\
+but also a conceputally flawed one. The norman transepts, and the Gothic nave,\
+it's a conceptually impure building. He believes systems are the same, that the\
+conceptual integrity of the system is THE most important part in system design.\
+
+Conceptual integrity is important, because it brings about ease of use. This is\
+because, at it's core, software is supposed to make lives easier, not harder.
+
+In a world where time didn't matter, one person would be the source of the con-\
+cept, providing full conceptual integrity. However, time exists, and therefore\
+must need more than one person. This is handled in two ways, and the first way\
+is the division of labor between architecture and implementation, and the second\
+way is the type of team described in the last chapter.
+
+Fred suggests that architecture is the idea of what happens, and implementation\
+is how it happens. Architecture as defined here, fundementally differs from my\
+understanding of architecture because I previously understood the idea of arch-\
+itecture to be a description of how things happen, to educate the programmer in\
+their endeavour to create the implementation, which is the realization of archi-\
+tecture. My understanding was close, but fundementally different, whereas this\
+definition of architecture is more about the use of the software. (He says, for\
+example, user manuals are architectual documents.)
+
+He brings to mind his history with OS/360, where he allowed 150 implementors to\
+design the architecture with the coordination of the architects, which caused\
+something forewarned by the architect administrator, that the architecture would\
+take just as long to make as his team of 10 could to it alone, with a worse pro-\
+duct. He was right.
