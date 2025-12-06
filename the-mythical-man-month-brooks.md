@@ -199,3 +199,41 @@ no systems, and the architect should, if he is at that one system danger point,
 be aware of the hazards of the Second System.
 
 ## CHAPTER 6 - Passing The Word
+It is important for the architect to define their architecture, so the word may
+be passed on.
+
+The first method is that of the written specification, the manual. This is what
+cumulates as the user manual, and describes the program to extreme specificity
+as to what it does. It does not describe how it works, although the architect
+must be able to provide *an* implementation, not *the* implementation. This also
+is a very subject to change piece of work, and must be dated and versioned for
+the sake of the implementers.
+
+Fred goes on to discuss formal definitions (e.g. flowcharts, backus-naur forms)
+and prose definitions. He suggests that formal definitions, while exceptionally
+precise are bordering on incomphrensible, and prose is easy to comprehend but it
+is very hard to make a precise enough definition with prose. So he says that the
+future will be the combination of both, but you cannot have them both be the
+standard, one must be the derivative, either the formal from the prose or the
+prose from the formal.
+
+Formal definitions are tricky in that they quickly can become an embodiment or
+description of implementation, which as has been discussed is impermissible.
+Also, implementation can be a standard from which formal definitions derive, but
+these deriviations become quite messy. (think emulation)
+
+Then of course, there are meetings. I feel as this section is more about the
+particular needs of your group, because he heavily leans on very "this was what
+we did on System/360" language, but they had weekly meetings where architects
+and representatives of implementers and even users would discuss problems that
+have came up and they would come up with good, creative solutions. And as time
+wore on, and issues with these solutions popped up, they would have annual
+(although Fred says he would do every 6 months if he was doing it over) meetings
+where they would address all these issues, getting everything resolved. But,
+regardless, these meetings, alongside man-to-man conversations, are crucial in
+communication.
+
+The last few sections are a bit disjointed in nature, but basically boil down to
+just being sensible and thorough in how you handle anything regarding
+communication, especially with the user in telephone (and e-mail now) and
+product testing.
