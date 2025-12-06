@@ -156,7 +156,7 @@ of large amounts of manpower.
 Freds brings to mind the idea of the Reims Cathedral, a great building no doubt\
 but also a conceputally flawed one. The norman transepts, and the Gothic nave,\
 it's a conceptually impure building. He believes systems are the same, that the\
-conceptual integrity of the system is THE most important part in system design.\
+conceptual integrity of the system is THE most important part in system design.
 
 Conceptual integrity is important, because it brings about ease of use. This is\
 because, at it's core, software is supposed to make lives easier, not harder.
